@@ -1,10 +1,10 @@
 import { Button } from "@/components/ui/button";
 import { BrowserRouter, Route, Routes, useLocation } from "react-router-dom";
-import WelcomePage from "../src/pages/LandingPage";
+import LandingPage from "../src/pages/LandingPage";
 import VenueRoomPage from "../src/pages/VenuePage";
 import AddonsPage from "../src/pages/AddonsPage";
 import MealsPage from "../src/pages/MealsPage";
-import { Navbar1 } from "./components/ui/navbar1";
+import { Navbar1 } from "./components/ui/navigation-bar";
 
 function AppContent() {
   const location = useLocation();
